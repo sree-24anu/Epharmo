@@ -1,0 +1,114 @@
+
+.rightpanel {
+    margin: 65px 20px 20px 320px;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.flex
+{
+    margin: 20px;
+}
+
+.flex,
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top button
+{
+    min-width: 130px;
+    min-height: 35px;
+}
+
+.flex input[type="text"],
+input[type="date"] {
+    height: 30px;
+    min-width: 200px;
+}
+
+/* .flex input[type="file"] {
+
+    left: 582px;
+    position: absolute;
+} */
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button input[type="submit"]
+{
+    padding: 8px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.add_btn
+{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.content .button input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+.search {
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.stockcontent {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.flex select {
+    min-width: 201px;
+    height: 30px;
+}
+
+/* .pagnation {
+   display: flex;
+   justify-content: space-between;
+} */
+
+.flex input[type=file] {
+    width: 43%;
+}
+
+.img input[type=file] {
+    width: 51%;
+}
+.alert {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.alert div {
+    display: flex;
+    justify-content: center;
+}
+
