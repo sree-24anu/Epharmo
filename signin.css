@@ -1,0 +1,85 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('usage/images/loginbg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.register-container {
+    width: 450px;
+    margin: 10px auto;
+    background-color: #e1d0decc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #286090;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #337ab7;
+}
+
+.footer a:hover {
+    text-decoration: #286090;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#password-strength-bar {
+    display: none;
+    /* Hide initially */
+    width: 100%;
+}
